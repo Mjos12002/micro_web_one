@@ -1,43 +1,18 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 20em;
+    height: 3em;
+    float: left;
+}
+
 ul li{
     list-style-type: none;
     display: inline-block;
     margin-left: 5.5em;
 }
 
-ul li:nth-child(3) {
-    padding-right: 5em;
-}
-
-ul {
-    float: right;
-}
-
-#header {
-    position: -webkit-sticky;
-}
-
-li a {
-    color: #000;
-    text-decoration: none;
-} */
-
-#header {
-    position: relative;
-}
-
-#header-img {
-    position: absolute;
-    left: 0em;
-    width: 20em;
-    height: 3em;
-}
-
-ul {
-    position: absolute;
-    right: 0em;
-}
-
-div {
-    position: absolute;
-    top: 3.0em;
-}
