@@ -1,0 +1,28 @@
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5.5em;
+}
+
+ul li:nth-child(3) {
+    padding-right: 5em;
+}
+
+ul {
+    float: right;
+}
+
+#header {
+    position: -webkit-sticky;
+}
+
+#header-img {
+    float: left;
+    width: 20em;
+    height: 3em;
+}
+
+li a {
+    color: #000;
+    text-decoration: none;
+}
