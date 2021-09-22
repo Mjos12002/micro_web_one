@@ -23,5 +23,6 @@ ul li:nth-child(3) {
 .sub-header-info {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
