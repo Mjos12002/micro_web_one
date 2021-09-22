@@ -7,7 +7,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position:  -webkit-sticky;
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 0;
+    align-self: flex-start; /* <-- this is the fix */
 }
 
 img {
@@ -134,4 +137,10 @@ footer {
     justify-content: flex-end;
     font-size: 0.9em;
     color: #444;
+  }
+
+  .video-section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
   }
