@@ -2,6 +2,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position:  -webkit-sticky;
 }
 
 img {
@@ -35,9 +36,18 @@ ul li:nth-child(3) {
 }
 
 .features-icon {
-    margin: 1.5em;
+    width: 9em;
 }
 .features-icon i {
     color: gold;
+    margin-top: 0.4em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.features-text {
+    margin-left: 1.5rem;
 }
 
