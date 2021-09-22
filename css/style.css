@@ -16,3 +16,7 @@ ul li{
     margin-left: 5.5em;
 }
 
+ul li:nth-child(3) {
+    padding-right: 5em;
+}
+
