@@ -3,11 +3,16 @@ body {
     background-color: #eee;
     font-family: 'Lato', sans-serif;
   }
+  #nav-bar{
+    text-decoration: none;
+    
+  }
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: -webkit-sticky; /* for Safari */
+    background-color: #eee;
     position: sticky;
     top: 0;
     align-self: flex-start; /* <-- this is the fix */
